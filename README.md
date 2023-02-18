@@ -45,7 +45,7 @@ def main(): # Lets create a function for showcasing the package
     else: # If you haven't
         system.write("""Noo! I said you have to say "Hello World"!""", .03) # We're telling you to type in "Hello World" like we said above
     system.write("Now press enter 5 times to exit", .03)
-    system.enter() # Now you have to press enter 5 times to exit
+    system.enter(5) # Now you have to press enter 5 times to exit
     system._exit(0) # Now we exit so, goodbye!
 
 if __name__ == "__main__":
