@@ -1,5 +1,8 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=00ffff&text=IzDa%20Bot&fontColor=FFF&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Changelog&descAlignY=51&descAlign=65&height=300&section=header)
 
+### 2023-02-18, v1.0.1
+* ` Directly found a bug and fixed it 💀`
+
 ### 2023-02-18, v1.0
 * ` Just created this`
 * ` Added title function to change the title from the command promt`
