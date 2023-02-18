@@ -23,6 +23,46 @@
 pip3 install collinizda
 ```
 
+## - Functions in dropdown -
+<details>
+<summary>All functions with examples (Drop Down)</summary>
+
+## - ❗ Title Function -
+```py
+from collinizda import * # Import the libary
+
+system.title("This is the Title!") # Change the title
+```
+
+## - Clear Function -
+```py
+from collinizda import * # Import the libary
+
+system.clear() # Clears the console
+```
+
+## - Write and Input -
+```py
+from collinizda import * # Import the libary
+
+system.write("Typewriter function", .03) # Typewriter print function
+system.input("Typewriter input function", .03, newLine=False) # Typewriter input animation
+# The ", .03" in the function is the speed and the "newLine=..." is to print a new line after the animation
+```
+
+## - All other -
+```py
+from collinizda import * # Import the libary
+
+system.init() # Allows you to use colors in print
+system.command("echo Hello") # Execute a command into the console
+system.enter(5) # Press enter 5 times to exit
+system._exit(0) # Exit the programm with the exit code 0
+```
+</details>
+
+---
+
 ## - 👤 Authors -
 👤 Github: [@**CollinIzDa**](https://github.com/collinizda)<br>
 👤 Website: [**CollinIzDa.com**](https://collinizda.com/)
