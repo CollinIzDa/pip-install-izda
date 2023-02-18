@@ -10,7 +10,7 @@
 
 <p align="center">
 <a href="https://github.com/CollinIzDa/pip-install-collinizda#--installation--">Installation</a> |
-<a href="https://github.com/CollinIzDa/IzDa-Bot/blob/main/Changelog.md">Changelogs</a> |
+<a href="https://github.com/CollinIzDa/pip-install-collinizda/blob/main/Changelog.md">Changelogs</a> |
 <a href="https://collinizda.com">Website</a>
 </p>
 
@@ -18,12 +18,16 @@
 > <br>
 > It's not the best packageand my example is shit so don't expect too much
 
-## - Installation -
+## - 📥 Installation -
 ```ssh
 pip3 install collinizda
 ```
 
-## - Example -
+## - 👤 Authors -
+👤 Github: [@**CollinIzDa**](https://github.com/collinizda)<br>
+👤 Website: [**CollinIzDa.com**](https://collinizda.com/)
+
+## - 📍 Example -
 ```py
 from collinizda import * # We import everything from the package
 
