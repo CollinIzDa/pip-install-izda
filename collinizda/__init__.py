@@ -1,11 +1,12 @@
 # ================================ #
-#        CollinIzDa Package        #
+#        CollinIzDa Library        #
 #      https://collinizda.com      #
 # ================================ #
 
 # Copyright (c) CollinIzDa#1594
 # That package was proudly coded by CollinIzDa#1594
-# Its not done yet. If there any bugs, contact me: CollinIzDa#1594 or info@collinizda.de
+# Its not done yet. If there any bugs or problems,
+# create an issue on my github https://github.com/CollinIzDa/pip-install-collinizda/issues/new
 
 #~~~ Imports ~~~#
 from pystyle import Cursor
@@ -60,11 +61,10 @@ def title(_str):
     elif Linux:
         _stdout.write(f"\x1b]0;{_str}\x07") # Update the title of the command promt
     
-    else: # What os are you using???
+    else: # Bro what os are you using???
         pass # I do nothing
 
-
-def init(): # Make colors printable into the console
+def init(): # initialize the terminal to allow the use of colors
     _system("")
 
 def _exit(__status: _ExitCode = None) -> NoReturn: ...
@@ -75,25 +75,37 @@ def enter(times: str): # Press enter 5 times to exit
 def command(command: str): # Execute a terminal command
     return _system(command) # _system is os.system("the command e.g cls")
 
+
+
 class write():
+
+    """
+    0 variables:
+        Nothing here...
+
+    2 functions:
+        print()    |    prints any text with a nice typewriter animation
+        input()    |    writes an input text with a nice typewriter animation
+    """
+    
     def print(text: str, speed: float, newLine=True): # A fancy typewriter input function
-        Cursor.HideCursor()
+        Cursor.HideCursor() # Hides the cursor for a better animation
         for i in text:  # Loop over the message
             # Print the one charecter, flush is used to force python to print the char
             print(i, end="", flush=True)
             _sleep(speed)  # Sleep a little before the next one
         if newLine:  # Check if the newLine argument is set to True
             print()  # Print a final newline to make it act more like a normal print statement
-        Cursor.ShowCursor()
+        Cursor.ShowCursor() # Shows the cursor again
 
     def input(text: str, speed: float, newLine=True): # A fancy typewriter input function
-        Cursor.HideCursor()
+        Cursor.HideCursor() # Hides the cursor for a better animation
         for i in text:  # Loop over the message
             # Print the one charecter, flush is used to force python to print the char
             print(i, end="", flush=True)
             _sleep(speed)  # Sleep a little before the next one
         if newLine:  # Check if the newLine argument is set to True
             print()  # Print a final newline to make it act more like a normal print statement
-        Cursor.ShowCursor()
-        return input()
+        Cursor.ShowCursor() # Shows the cursor again
+        return input() # returns input that we can input things in this text
 #~~~ All functions End ~~~#
