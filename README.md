@@ -29,35 +29,35 @@ pip3 install collinizda
 
 ## - ❗ Title Function -
 ```py
-from collinizda import * # Import the libary
+import collinizda # Import the libary
 
-system.title("This is the Title!") # Change the title
+collinizda.title("This is the Title!") # Change the title
 ```
 
 ## - Clear Function -
 ```py
-from collinizda import * # Import the libary
+Import collinizda # Import the libary
 
-system.clear() # Clears the console
+collinizda.clear() # Clears the console
 ```
 
 ## - Write and Input -
 ```py
-from collinizda import * # Import the libary
+import collinizda # Import the libary
 
-system.write("Typewriter function", .03) # Typewriter print function
-system.input("Typewriter input function", .03, newLine=False) # Typewriter input animation
+collinizda.write.print("Typewriter function", .03) # Typewriter print function
+collinizda.write.input("Typewriter input function", .03, newLine=False) # Typewriter input animation
 # The ", .03" in the function is the speed and the "newLine=..." is to print a new line after the animation
 ```
 
 ## - All other -
 ```py
-from collinizda import * # Import the libary
+import collinizda # Import the libary
 
-system.init() # Allows you to use colors in print
-system.command("echo Hello") # Execute a command into the console
-system.enter(5) # Press enter 5 times to exit
-system._exit(0) # Exit the programm with the exit code 0
+collinizda.init() # Allows you to use colors in print
+collinizda.command("echo Hello") # Execute a command into the console
+collinizda.enter(5) # Press enter 5 times to exit
+collinizda._exit(0) # Exit the programm with the exit code 0
 ```
 </details>
 
@@ -69,24 +69,24 @@ system._exit(0) # Exit the programm with the exit code 0
 
 ## - 📍 Example -
 ```py
-from collinizda import * # We import everything from the package
+import collinizda # How about importing collinizda?
 
 def main(): # Lets create a function for showcasing the package
 
     """
     This is just a function to show the package
     """
-    system.clear()
-    system.title("This is an example!") # How about to change the console title
-    system.write("This is a cool typewriter animation!", .03) # A nice typewriter animation
-    say = system.input('Say "Hello World": ', .03, newLine=False) # Also a typewriter animation but as an input
+    collinizda.clear()
+    collinizda.title("This is an example!") # How about to change the console title
+    collinizda.write.print("This is a cool typewriter animation!", .03) # A nice typewriter animation
+    say = collinizda.write.input('Say "Hello World": ', .03, newLine=False) # Also a typewriter animation but as an input
     if say == "Hello World": # We'll see if you put in what I said
-        system.write("Hello, how are you?", .03) # If you put in what I said, we'll ask how you're doing
+        collinizda.write.print("Hello, how are you?", .03) # If you put in what I said, we'll ask how you're doing
     else: # If you haven't
-        system.write("""Noo! I said you have to say "Hello World"!""", .03) # We're telling you to type in "Hello World" like we said above
-    system.write("Now press enter 5 times to exit", .03)
-    system.enter(5) # Now you have to press enter 5 times to exit
-    system._exit(0) # Now we exit so, goodbye!
+        collinizda.write.print("""Noo! I said you have to say "Hello World"!""", .03) # We're telling you to type in "Hello World" like we said above
+    collinizda.write.print("Now press enter 5 times to exit", .03)
+    collinizda.enter(5) # Now you have to press enter 5 times to exit
+    collinizda._exit(0) # Now we exit so, goodbye!
 
 if __name__ == "__main__":
     main() # We execute the function we created above
