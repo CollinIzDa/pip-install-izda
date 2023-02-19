@@ -14,7 +14,7 @@
 <a href="https://collinizda.com">Website</a>
 </p>
 
-> The package "**collinizda**" is just for fun and I coded it because I was bored.
+> The package "**collinizda**" is just for fun and I coded it because I was bored
 > <br>
 > It's not the best packageand my example is shit so don't expect too much
 
