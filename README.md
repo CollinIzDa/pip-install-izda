@@ -5,8 +5,16 @@
 </div>
 
 <h1 align="center">
-  Hello, welcome to the IzDa Repository!
+  Hello, welcome to the "collinizda" Repository!
 </h1>
+
+<p align="center">
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.3-blue.svg?cacheSeconds=2592000" />
+<a href="https://pepy.tech/project/collinizda" target="_blank">
+<img alt="Downloads" src="https://static.pepy.tech/personalized-badge/collinizda?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads" /></a>
+<img src="https://img.shields.io/github/languages/top/CollinIzDa/pip-install-collinizda?style=flat-square" </a>
+<img src="https://img.shields.io/github/license/CollinIzDa/pip-install-collinizda?style=flat-square" </a>
+</p>
 
 <p align="center">
 <a href="https://github.com/CollinIzDa/pip-install-collinizda#---installation--">Installation</a> |
