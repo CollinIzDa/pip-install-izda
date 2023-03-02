@@ -1,11 +1,11 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=00ffff&text=CollinIzDa&fontColor=FFF&fontSize=90&animation=fadeIn&fontAlignY=38&desc=pip%20install%20collinizda&descAlignY=51&descAlign=64&height=300&section=header)
+![header](https://capsule-render.vercel.app/api?type=waving&color=00ffff&text=CollinIzDa&fontColor=FFF&fontSize=90&animation=fadeIn&fontAlignY=38&desc=pip%20install%20izda&descAlignY=51&descAlign=67&height=300&section=header)
 
 <div align="center">
   <img src="https://collinizda.com/img/besen.png"></img>
 </div>
 
 <h1 align="center">
-  Hello, welcome to the "collinizda" Repository!
+  Hello, welcome to the "izda" Repository!
 </h1>
 
 <p align="center">
@@ -22,7 +22,7 @@
 <a href="https://collinizda.com">Website</a>
 </p>
 
-> The package "**collinizda**" is just for fun and I coded it because I was bored.
+> The package "**izda**" is just for fun and I coded it because I was bored.
 > <br>
 > It's not the best packageand my example is shit so don't expect too much
 
@@ -37,35 +37,35 @@ pip3 install izda
 
 ## - ❗ Title Function -
 ```py
-import collinizda # Import the libary
+import izda # Import the libary
 
-collinizda.title("This is the Title!") # Change the title
+izda.System.title("This is the Title!") # Change the title
 ```
 
 ## - Clear Function -
 ```py
-Import collinizda # Import the libary
+Import izda # Import the libary
 
-collinizda.clear() # Clears the console
+izda.System.clear() # Clears the console
 ```
 
 ## - Write and Input -
 ```py
-import collinizda # Import the libary
+import izda # Import the libary
 
-collinizda.write.print("Typewriter function", .03) # Typewriter print function
-collinizda.write.input("Typewriter input function", .03, newLine=False) # Typewriter input animation
-# The ", .03" in the function is the speed and the "newLine=..." is to print a new line after the animation
+izda.Write.Print("Typewriter function", interval=0.05) # Typewriter print function
+izda.Write.Print("Typewriter input function", interval=0.05, newLine=False) # Typewriter input animation
+# The "interval" in the function is the speed and the "newLine=..." is to print a new line after the animation
+# You can also use cursor=False/True if you want to show the command prompt cursor or not
 ```
 
 ## - All other -
 ```py
-import collinizda # Import the libary
+import izda # Import the libary
 
-collinizda.init() # Allows you to use colors in print
-collinizda.command("echo Hello") # Execute a command into the console
-collinizda.enter(5) # Press enter 5 times to exit
-collinizda._exit(0) # Exit the programm with the exit code 0
+izda.System.init() # Allows you to use colors in print
+izda.System.command("echo Hello") # Execute a command into the console
+izda.System.enter(5) # Press enter 5 times to exit
 ```
 </details>
 
@@ -77,34 +77,29 @@ collinizda._exit(0) # Exit the programm with the exit code 0
 
 ## - 📍 Example -
 ```py
-import collinizda # How about importing collinizda?
+import izda # Import IzDa
 
-def main(): # Lets create a function for showcasing the package
-
-    """
-    This is just a function to show the package
-    """
-    collinizda.clear()
-    collinizda.title("This is an example!") # How about to change the console title
-    collinizda.write.print("This is a cool typewriter animation!", .03) # A nice typewriter animation
-    say = collinizda.write.input('Say "Hello World": ', .03, newLine=False) # Also a typewriter animation but as an input
-    if say == "Hello World": # We'll see if you put in what I said
-        collinizda.write.print("Hello, how are you?", .03) # If you put in what I said, we'll ask how you're doing
-    else: # If you haven't
-        collinizda.write.print("""Noo! I said you have to say "Hello World"!""", .03) # We're telling you to type in "Hello World" like we said above
-    collinizda.write.print("Now press enter 5 times to exit", .03)
-    collinizda.enter(5) # Now you have to press enter 5 times to exit
-    collinizda._exit(0) # Now we exit so, goodbye!
+def lol(): # Creating our example function
+    izda.System.clear() # Clear the command prompt
+    izda.System.title("Example") # Changes the title
+    izda.System.init() # Allow us to write colors in the command prompt
+    izda.System.command("mode 120, 25") # Execute a command
+    inputa = izda.Write.Input(f'Write "Hi": ', interval=0.05) # Ask the user to input "Hi"
+    if inputa != "Hi": # If he does not input "Hi"
+        izda.Write.Print('I said you have to input "Hi"!', interval=0.05) # Say it to him
+    else: # If he input "Hi" and did all right
+        izda.Write.Print('Like this! Now press enter 5 times to exit.') # Say he have to press enter 5 times to exit
+        izda.System.enter(5) # Execute the enter 5 times function
 
 if __name__ == "__main__":
-    main() # We execute the function we created above
+    lol() # Execute our created function on program run
 ```
 
 ---
 
-🌟 **Enjoyed "collinizda"?** Consider dropping a star :D
+🌟 **Enjoyed "izda"?** Consider dropping a star :D
 
-**"collinizda" was created by CollinIzDa. 💀**
+**"izda" was created by CollinIzDa.**
 
 Discord: CollinIzDa#1594
 
