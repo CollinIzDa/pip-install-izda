@@ -44,7 +44,7 @@ izda.System.title("This is the Title!") # Change the title
 
 ## - Clear Function -
 ```py
-Import izda # Import the libary
+import izda # Import the libary
 
 izda.System.clear() # Clears the console
 ```
