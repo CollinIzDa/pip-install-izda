@@ -1,4 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=00ffff&text=IzDa%20Bot&fontColor=FFF&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Changelog&descAlignY=51&descAlign=65&height=300&section=header)
+![header](https://capsule-render.vercel.app/api?type=waving&color=00ffff&text=IzDa&fontColor=FFF&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Changelog&descAlignY=51&descAlign=55&height=300&section=header)
+
+### 2023-03-02, v1.0.5
+* ` Renamed the library to "izda"`
+* ` Sorted my code better again`
 
 ### 2023-02-19, v1.0.2
 * ` Sorted my code better`
@@ -18,7 +22,5 @@
 
 ---
 
-| 🌟Star This Repository If You Liked IzDa Bot!|
+| 🌟Star This Repository If You Liked IzDa!|
 |-------------------------------------------------|
-
-> **❗ I just wanted to say, please resepct the license and do not edit the footers.**
