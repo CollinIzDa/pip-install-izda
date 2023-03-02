@@ -1,21 +1,16 @@
-import collinizda # How about importing collinizda?
+import izda # Import IzDa
 
-def main(): # Lets create a function for showcasing the package
-
-    """
-    This is just a function to show the package
-    """
-    collinizda.clear()
-    collinizda.title("This is an example!") # How about to change the console title
-    collinizda.write.print("This is a cool typewriter animation!", .03) # A nice typewriter animation
-    say = collinizda.write.input('Say "Hello World": ', .03, newLine=False) # Also a typewriter animation but as an input
-    if say == "Hello World": # We'll see if you put in what I said
-        collinizda.write.print("Hello, how are you?", .03) # If you put in what I said, we'll ask how you're doing
-    else: # If you haven't
-        collinizda.write.print("""Noo! I said you have to say "Hello World"!""", .03) # We're telling you to type in "Hello World" like we said above
-    collinizda.write.print("Now press enter 5 times to exit", .03)
-    collinizda.enter(5) # Now you have to press enter 5 times to exit
-    collinizda._exit(0) # Now we exit so, goodbye!
+def lol(): # Creating our example function
+    izda.System.clear() # Clear the command prompt
+    izda.System.title("Example") # Changes the title
+    izda.System.init() # Allow us to write colors in the command prompt
+    izda.System.command("mode 120, 25") # Execute a command
+    inputa = izda.Write.Input(f'Write "Hi": ', interval=0.05) # Ask the user to input "Hi"
+    if inputa != "Hi": # If he does not input "Hi"
+        izda.Write.Print('I said you have to input "Hi"!', interval=0.05) # Say it to him
+    else: # If he input "Hi" and did all right
+        izda.Write.Print('Like this! Now press enter 5 times to exit.') # Say he have to press enter 5 times to exit
+        izda.System.enter(5) # Execute the enter 5 times function
 
 if __name__ == "__main__":
-    main() # We execute the function we created above
+    lol() # Execute our created function on program run
