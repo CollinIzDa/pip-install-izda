@@ -28,7 +28,7 @@
 
 ## - 📥 Installation -
 ```ssh
-pip3 install collinizda
+pip3 install izda
 ```
 
 ## - Functions in dropdown -
