@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/CollinIzDa/pip-install-collinizda#---installation--">Installation</a> |
+<a href="https://github.com/CollinIzDa/pip-install-izda#---installation--">Installation</a> |
 <a href="https://github.com/CollinIzDa/pip-install-collinizda/blob/main/Changelog.md">Changelogs</a> |
 <a href="https://collinizda.com">Website</a>
 </p>
